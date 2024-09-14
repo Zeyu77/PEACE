@@ -11,7 +11,8 @@
 ## DATASETS
 [OFFICE-HOME]
 
-## Before running the code, the dataset path has to be modified based on the dataset's path in lines 86 and 87 in run.py and lines 188 and 196 in officehome.py.
+## Experiments
+Before running the code, the dataset path has to be modified based on the dataset's path in lines 86 and 87 in run.py and lines 188 and 196 in officehome.py.
 
 How to train a hashing model:
 
