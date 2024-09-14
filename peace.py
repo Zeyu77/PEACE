@@ -219,7 +219,7 @@ def train(train_s_dataloader,
                                code_length,
                                device,
                                topk,
-                               save=True,
+                               save=False,
                                )
 
                 logger.info('[iter:{}/{}][map:{:.4f}]'.format(
@@ -234,7 +234,7 @@ def train(train_s_dataloader,
                     code_length,
                     device,
                     topk,
-                    save=True,
+                    save=False,
                     )
 
         logger.info('Training on target finished, [iteration:{}][map:{:.4f}]'.format(epoch+1, mAP))
